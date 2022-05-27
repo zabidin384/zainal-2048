@@ -33,7 +33,7 @@ hr {
 	justify-content: center;
 	align-items: center;
 	transition: 0.5s ease-out;
-	animation: move 5s;
+	animation: move 3s;
 }
 @keyframes move {
 	from {
