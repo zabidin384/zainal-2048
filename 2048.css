@@ -32,6 +32,16 @@ hr {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	transition: 0.5s ease-out;
+	animation: move 5s;
+}
+@keyframes move {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
 }
 
 .x2 {
